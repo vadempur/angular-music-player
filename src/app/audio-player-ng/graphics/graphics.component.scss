@@ -1,0 +1,23 @@
+@import "../assets/scss/vars";
+
+.oscilloscope {
+  background: transparent !important;
+  height: $height;
+  width: $width;
+
+  canvas {
+    height: $height;
+    width: $width;
+  }
+}
+
+.frequency {
+  background: transparent !important;
+  height: $height;
+  width: $width;
+
+  canvas {
+    height: $height;
+    width: $width;
+  }
+}

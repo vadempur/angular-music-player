@@ -1,0 +1,50 @@
+@import "../assets/scss/vars";
+
+.bar-progress {
+  background: transparent;
+  height: 8%;
+  position: absolute;
+  width: 72%;
+  top: 152px;
+}
+
+.progress-song {
+  background: #b7b7b9;
+  height: 100%;
+  pointer-events: none;
+  position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(193, 190, 190, 0.3);
+}
+
+.progress-tooltip {
+  background: $background-color-tooltip;
+  border-color: $border-color-tooltip;
+  border-radius: 2px;
+  color: $color-tooltip;
+  font-size: .8rem;
+  left: 0;
+  padding: 3px 5px;
+  pointer-events: none;
+  position: absolute;
+  top: -25px;
+  visibility: hidden;
+  white-space: nowrap;
+  z-index: 101;
+}
+
+.show-tooltip {
+  visibility: visible;
+}
+
+.tooltip-arrow {
+  border-style: solid;
+  border-width: 6px;
+  height: 5px;
+  margin-left: -5px;
+  position: absolute;
+  top: 100%;
+  z-index: 100;
+  border-color: inherit;
+}
