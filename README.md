@@ -7,7 +7,7 @@ Simple audio player for angular 2+
 #### Install
 
 ```
-    npm install audio-player-ng --save
+    npm install naudio-player-ng --save
 ```
 
 #### Dependencies
